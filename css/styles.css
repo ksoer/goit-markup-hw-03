@@ -448,8 +448,8 @@ footer {
   margin: -15px;
 }
 .my-work-item {
-  border: 1px solid #eeeeee;
-  margin: 13px;
+  outline: 1px solid #eeeeee;
+  margin: 15px;
 }
 
 .my-work-title {
