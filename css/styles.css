@@ -182,6 +182,13 @@ body {
 .contakt-link-tel:focus {
   color: var(--accent-color);
 }
+
+.nav-link,
+.contakt-link-mail,
+.contakt-link-tel {
+  padding: 32px 0px;
+}
+
 /* горизонтальна лінія */
 .header {
   border-bottom: 1px solid #ececec;
@@ -189,14 +196,11 @@ body {
 }
 
 /* =====Hero===== */
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .hero {
   background-color: var(--primary-footer-head-color);
+  text-align: center;
+  padding: 200px 0px;
 }
 
 .header-title {
@@ -207,9 +211,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  padding-top: 200px;
-  padding-left: 237px;
-  padding-right: 237px;
+  margin-bottom: 30px;
 }
 .order-btn {
   font-weight: 700;
@@ -219,13 +221,11 @@ body {
   color: var(--primary-white-color);
   background: var(--accent-color);
   min-width: 200px;
-  height: 50px;
-  border: none;
+  border: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 30px;
-  margin-bottom: 200px;
+  cursor: pointer;
 }
 
 .order-btn:hover,
@@ -245,10 +245,12 @@ body {
   overflow: hidden;
 }
 
+.benefits-section {
+  padding: 94px 0px;
+}
+
 .benefits-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .benefits-item:not(:last-child) {
@@ -275,6 +277,9 @@ body {
 }
 /* =====about===== */
 
+.section-about {
+  padding-bottom: 94px;
+}
 .section-about-title {
   font-weight: 700;
   font-size: 36px;
@@ -287,8 +292,8 @@ body {
 
 .about-list {
   display: flex;
-  padding-bottom: 94px;
 }
+
 .about-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -296,6 +301,7 @@ body {
 /* =====team===== */
 .section-team {
   background-color: var(--primary-backgroun-color-team);
+  padding: 94px 0px;
 }
 
 .team-list {
@@ -308,7 +314,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
+  width: 270px;
 }
 
 .team-title {
@@ -318,7 +324,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -341,6 +346,8 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .developers-information h3 {
@@ -351,6 +358,7 @@ body {
 
 footer {
   background-color: var(--primary-footer-head-color);
+  padding: 60px 0px;
 }
 .footer-logo-link {
   color: var(--primary-white-color);
@@ -362,7 +370,6 @@ footer {
 }
 .footer-logo-link {
   display: flex;
-  padding-top: 64px;
   margin-bottom: 20px;
   margin-right: 0 auto;
 }
@@ -374,9 +381,7 @@ footer {
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-list-str {
-  padding-bottom: 56px;
-}
+
 .address-str {
   font-style: normal;
   font-weight: 400;
@@ -406,9 +411,10 @@ footer {
 .list-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
-.button-title {
+.button-item {
   margin-right: 8px;
 }
 .button-title {
@@ -427,7 +433,7 @@ footer {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .button-title:hover,
@@ -437,9 +443,8 @@ footer {
 }
 /* =====my work===== */
 
-.my-work .container {
+.my-work {
   margin: 94px auto;
-  justify-content: center;
 }
 
 .my-work-list {
