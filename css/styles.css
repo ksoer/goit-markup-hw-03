@@ -102,16 +102,7 @@ body {
 .logo-color-web {
   color: var(--accent-color);
 }
-
-.nav-link-study-accent {
-  color: var(--accent-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-}
-
-.nav-link-study {
+.nav-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -119,42 +110,17 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-link-study:hover,
-.nav-link-study:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
-.nav-portfolio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
 .accent {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-}
-
-.nav-portfolio:hover,
-.nav-portfolio:focus {
-  color: var(--accent-color);
-}
-
-.nav-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-
-.nav-contact:hover,
-.nav-contact:focus {
-  color: var(--accent-color);
 }
 
 .contakt-link-mail {
