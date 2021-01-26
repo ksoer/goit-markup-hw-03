@@ -380,7 +380,7 @@ footer {
   margin-bottom: 50px;
 }
 
-.button-item {
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
 .button-title {
@@ -409,8 +409,9 @@ footer {
 }
 /* =====my work===== */
 
-.my-work {
-  margin: 94px auto;
+.my-work .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .my-work-list {
